@@ -35,4 +35,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'AdHubSDKPod/Classes/*.framework'
   s.resources = 'AdHubSDKPod/Classes/*.bundle'
 
+  s.frameworks = 'UIKit', 'Twitter', 'MobileCoreServices', 'Security', 'QuartzCore', 'SystemConfiguration', 'JavaScriptCore', 'WebKit', 'CoreMedia', 'CoreTelephony', 'CoreLocation', 'CoreMotion', 'AdSupport', 'CFNetwork', 'MessageUI', 'AVFoundation', 'SafariServices', 'StoreKit', 'CoreGraphics'
+
 end

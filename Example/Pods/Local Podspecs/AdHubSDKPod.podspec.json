@@ -19,5 +19,26 @@
     "ios": "7.0"
   },
   "vendored_frameworks": "AdHubSDKPod/Classes/*.framework",
-  "resources": "AdHubSDKPod/Classes/*.bundle"
+  "resources": "AdHubSDKPod/Classes/*.bundle",
+  "frameworks": [
+    "UIKit",
+    "Twitter",
+    "MobileCoreServices",
+    "Security",
+    "QuartzCore",
+    "SystemConfiguration",
+    "JavaScriptCore",
+    "WebKit",
+    "CoreMedia",
+    "CoreTelephony",
+    "CoreLocation",
+    "CoreMotion",
+    "AdSupport",
+    "CFNetwork",
+    "MessageUI",
+    "AVFoundation",
+    "SafariServices",
+    "StoreKit",
+    "CoreGraphics"
+  ]
 }
