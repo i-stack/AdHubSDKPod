@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		035CC38C1CE4BD324B313953 /* libPods-AdHubSDKPod_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D84CDE945B92884EB03D57A /* libPods-AdHubSDKPod_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,10 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		62C4E603BDA9F2DD7A9D212E /* Pods_AdHubSDKPod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20F8D5943DB47A2454AB635 /* Pods_AdHubSDKPod_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D997F0ACA2311DA6310BFE7B /* Pods_AdHubSDKPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302A7151098A8644690D6B61 /* Pods_AdHubSDKPod_Tests.framework */; };
+		DEBA36D7CA63339E57BB4F2E /* libPods-AdHubSDKPod_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 268AAF01CDE76AD908D25EE2 /* libPods-AdHubSDKPod_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,9 @@
 /* Begin PBXFileReference section */
 		1A8C76CC3091F63855B19747 /* AdHubSDKPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AdHubSDKPod.podspec; path = ../AdHubSDKPod.podspec; sourceTree = "<group>"; };
 		25339D01DCC3DDF26313C149 /* Pods-AdHubSDKPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdHubSDKPod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdHubSDKPod_Example/Pods-AdHubSDKPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		268AAF01CDE76AD908D25EE2 /* libPods-AdHubSDKPod_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdHubSDKPod_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6B610473FC45B7CF398312 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		302A7151098A8644690D6B61 /* Pods_AdHubSDKPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdHubSDKPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D84CDE945B92884EB03D57A /* libPods-AdHubSDKPod_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdHubSDKPod_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5918143E5466D66700F97C18 /* Pods-AdHubSDKPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdHubSDKPod_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdHubSDKPod_Example/Pods-AdHubSDKPod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AdHubSDKPod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdHubSDKPod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +66,6 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		924CE6EFD1D07B9FE233CAA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A20F8D5943DB47A2454AB635 /* Pods_AdHubSDKPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdHubSDKPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C72C628DDAEE663B44A77101 /* Pods-AdHubSDKPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdHubSDKPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdHubSDKPod_Tests/Pods-AdHubSDKPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				62C4E603BDA9F2DD7A9D212E /* Pods_AdHubSDKPod_Example.framework in Frameworks */,
+				035CC38C1CE4BD324B313953 /* libPods-AdHubSDKPod_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				D997F0ACA2311DA6310BFE7B /* Pods_AdHubSDKPod_Tests.framework in Frameworks */,
+				DEBA36D7CA63339E57BB4F2E /* libPods-AdHubSDKPod_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				A20F8D5943DB47A2454AB635 /* Pods_AdHubSDKPod_Example.framework */,
-				302A7151098A8644690D6B61 /* Pods_AdHubSDKPod_Tests.framework */,
+				4D84CDE945B92884EB03D57A /* libPods-AdHubSDKPod_Example.a */,
+				268AAF01CDE76AD908D25EE2 /* libPods-AdHubSDKPod_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -378,9 +378,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AdHubSDKPod_Example/Pods-AdHubSDKPod_Example-resources.sh",
+				"${PODS_ROOT}/../../AdHubSDKPod/Classes/AdHubSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

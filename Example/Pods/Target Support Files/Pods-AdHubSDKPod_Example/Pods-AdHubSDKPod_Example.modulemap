@@ -1,6 +1,0 @@
-framework module Pods_AdHubSDKPod_Example {
-  umbrella header "Pods-AdHubSDKPod_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
