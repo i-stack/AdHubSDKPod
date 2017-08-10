@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AdHubSDKPod_Example' do
+  pod 'AdHubSDKPod', :path => '../'
+
+  target 'AdHubSDKPod_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
