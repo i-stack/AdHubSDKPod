@@ -1,0 +1,22 @@
+{
+  "name": "AdHubSDKPod",
+  "version": "0.1.0",
+  "summary": "A short description of AdHubSDKPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/songMW/AdHubSDKPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "songMW": "songshoubing7664@163.com"
+  },
+  "source": {
+    "git": "https://github.com/songMW/AdHubSDKPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AdHubSDKPod/Classes/**/*"
+}

@@ -1,0 +1,23 @@
+PODS:
+  - AdHubSDKPod (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - AdHubSDKPod (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  AdHubSDKPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AdHubSDKPod: 83d36ebc4c082bf25dc581f1e5dd4c71e9f69819
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: eca374fbd6f5bdd5c1cd37fd7614080656747f75
+
+COCOAPODS: 1.3.0.beta.2
