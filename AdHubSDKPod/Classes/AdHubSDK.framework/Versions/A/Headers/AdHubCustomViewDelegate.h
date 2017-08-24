@@ -29,8 +29,7 @@
 /**
  自定义广告加载失败
  */
-- (void)adCustomView:(AdHubCustomView *)customView
-didFailToReceiveAdWithError:(AdHubRequestError *)error;
+- (void)adCustomView:(AdHubCustomView *)customView didFailToReceiveAdWithError:(AdHubRequestError *)error;
 
 /**
  自定义广告关闭
@@ -38,7 +37,7 @@ didFailToReceiveAdWithError:(AdHubRequestError *)error;
 - (void)adCustomViewDidDismissScreen:(AdHubCustomView *)customView;
 
 /**
- 自定义广告点击
+ 自定义广告点击 landingPageURL 为空时说明有详情页
  */
 - (void)customDidClick:(NSString *)landingPageURL;
 

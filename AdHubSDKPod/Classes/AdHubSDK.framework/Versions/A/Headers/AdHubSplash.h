@@ -48,4 +48,10 @@
  */
 - (void)loadAndDisplayUsingContainerView:(UIView *)view;
 
+/**
+ * 开屏广告移除 开发者自行调用
+ * 常用于点击广告之后没有详情页的情况
+ */
+- (void)splashCloseAd;
+
 @end

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AdHubSDKPod'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'AdHubSDK 广告平台, 用于请求广告的iOS SDK pod version'
 
  s.description      = <<-DESC
@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
 5. 修改iOS7.0模式下 HTML格式不能加载问题
 6. 添加原生广告点击时坐标获取
 7. pod create framework with example
+8. fix User-Agent
  DESC
 
 
@@ -35,6 +36,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'AdHubSDKPod/Classes/*.framework'
   s.resources = 'AdHubSDKPod/Classes/*.bundle'
 
-  s.frameworks = 'UIKit', 'Twitter', 'MobileCoreServices', 'Security', 'QuartzCore', 'SystemConfiguration', 'JavaScriptCore', 'WebKit', 'CoreMedia', 'CoreTelephony', 'CoreLocation', 'CoreMotion', 'AdSupport', 'CFNetwork', 'MessageUI', 'AVFoundation', 'SafariServices', 'StoreKit', 'CoreGraphics'
+  s.frameworks = ['UIKit', 'Twitter', 'MobileCoreServices', 'Security', 'QuartzCore', 'SystemConfiguration', 'JavaScriptCore', 'WebKit', 'CoreMedia', 'CoreTelephony', 'CoreLocation', 'CoreMotion', 'AdSupport', 'CFNetwork', 'MessageUI', 'AVFoundation', 'SafariServices', 'StoreKit', 'CoreGraphics']
 
 end

@@ -30,7 +30,7 @@
 // Banner 即将展现
 - (void)adViewWillPresentScreen:(AdHubBannerView *)bannerView;
 
-// Banner 点击
+// Banner 点击 landingPageURL 为空时说明有详情页
 - (void)adViewClicked:(NSString *)landingPageURL;
 
 // Banner 关闭

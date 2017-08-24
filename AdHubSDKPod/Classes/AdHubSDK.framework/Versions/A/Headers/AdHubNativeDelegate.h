@@ -37,7 +37,7 @@
 - (void)native:(AdHubNative *)ad didFailToLoadAdWithError:(AdHubRequestError *)error;
 
 /**
- 自定义广告点击
+ 自定义广告点击 tipMessage 为空时说明有详情页
  */
 - (void)nativeDidClick:(NSString *)tipMessage;
 

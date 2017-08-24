@@ -37,7 +37,7 @@
 - (void)splashDidPresentScreen:(AdHubSplash *)ad;
 
 /**
- 开屏点击
+ 开屏点击 landingPageURL 为空时说明有详情页
  */
 - (void)splashDidClick:(NSString *)landingPageURL;
 
@@ -46,7 +46,4 @@
  */
 - (void)splashDidDismissScreen:(AdHubSplash *)ad;
 
-
 @end
-
-

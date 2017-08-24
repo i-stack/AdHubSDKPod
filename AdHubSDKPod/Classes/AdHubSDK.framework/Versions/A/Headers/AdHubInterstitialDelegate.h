@@ -30,7 +30,7 @@
 - (void)interstitialDidPresentScreen:(AdHubInterstitial *)ad;
 
 /**
- 插屏点击
+ 插屏点击 landingPageURL 为空时说明有详情页
  */
 - (void)interstitialDidClick:(NSString *)landingPageURL;
 

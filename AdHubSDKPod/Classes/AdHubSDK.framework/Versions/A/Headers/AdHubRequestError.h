@@ -63,6 +63,17 @@ typedef NS_ENUM(NSInteger, AdHubErrorCode) {
     kAdHubErrorMediationInvalidAdSize
 };
 
+typedef NS_ENUM(NSInteger, AdHubAdClickMessageType) {
+    /// landingPageUrl不存在
+    kAdHubAdClickMessageTypeInvalidLandingPageUrl,
+    
+    /// 展现二级页面vc不存在
+    kAdHubAdClickMessageTypeInvalidPresentVC,
+    
+    /// 正常
+    kAdHubAdClickMessageTypeNormal
+};
+
 @interface AdHubRequestError : NSError
 
 + (AdHubRequestError *)errorWithCode:(AdHubErrorCode)code;
