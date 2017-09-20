@@ -12,7 +12,7 @@
 #import <UIKit/UIKit.h>
 
 /**
- 原生广告
+ 原生广告 : IMPORTANT 曝光时遵循看见广告在展示曝光
  */
 @interface AdHubNative : NSObject
 
@@ -38,7 +38,7 @@
  初始化方法
  
  @param spaceID 广告位 ID
- @param spaceParam 广告位参数
+ @param spaceParam 广告位参数 可填写任意字符串
  @return 原生广告对象
  */
 - (instancetype)initWithSpaceID:(NSString *)spaceID

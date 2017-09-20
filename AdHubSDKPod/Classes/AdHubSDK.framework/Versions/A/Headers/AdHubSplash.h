@@ -32,7 +32,7 @@
  初始化方法
  
  @param spaceID 广告位 ID
- @param spaceParam 广告位参数
+ @param spaceParam 广告位参数 可填写任意字符串
  @return 开屏广告对象
  */
 - (instancetype)initWithSpaceID:(NSString *)spaceID

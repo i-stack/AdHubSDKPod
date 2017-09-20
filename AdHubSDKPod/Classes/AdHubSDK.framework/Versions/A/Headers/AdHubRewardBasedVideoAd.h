@@ -39,7 +39,7 @@ ADHub_ASSUME_NONNULL_BEGIN
  加载激励视频广告
 
  @param spaceID 广告位 ID
- @param spaceParam 广告位参数
+ @param spaceParam 广告位参数 可填写任意字符串
  */
 - (void)loadAdWithSpaceID:(NSString *)spaceID
                spaceParam:(NSString *)spaceParam;
