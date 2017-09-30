@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AdHubSDKPod'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'AdHubSDK 广告平台, 用于请求广告的iOS SDK pod version'
 
  s.description      = <<-DESC
