@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/AdHubSDKPod.svg?style=flat)](http://cocoapods.org/pods/AdHubSDKPod)
 [![Platform](https://img.shields.io/cocoapods/p/AdHubSDKPod.svg?style=flat)](http://cocoapods.org/pods/AdHubSDKPod)
 
+AdHubSDKPod
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -36,13 +38,8 @@ AdHubSDKPod is available under the MIT license. See the LICENSE file for more in
 -  AdHub SDK 目录为 AdHubSample/lib/AdHubSDK.framework。
 -  使用 Sample 工程时需要向 AdHub 申请 AppID 以及每种广告对应的 SpaceID。
 -  参数说明:
-                    AppID               AdHub后台申请, 必填
-                    Space ID          AdHub后台申请, 必填
-                    Space Param   填任意字符串,   必填
-- 默认AdHub广告id, 开发者也可以自行输入
-
-### 如何调用:
-第一步: 集成SDK到demo, 详细可参考文档或者Demo配置
-第二步: 注册AppID [AdHubSDKManager configureWithApplicationID:@“AppID”];
-第三步: 请求相应的广告类型
+                --  AppID               AdHub后台申请, 必填
+                -- Space ID          AdHub后台申请, 必填
+                -- Space Param   填任意字符串,   必填
+- 默认AdHub广告id, 开发者也可以自行输入。
 
