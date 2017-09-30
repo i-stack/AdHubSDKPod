@@ -38,8 +38,8 @@ AdHubSDKPod is available under the MIT license. See the LICENSE file for more in
 -  AdHub SDK 目录为 AdHubSample/lib/AdHubSDK.framework。
 -  使用 Sample 工程时需要向 AdHub 申请 AppID 以及每种广告对应的 SpaceID。
 -  参数说明:
-                --  AppID               AdHub后台申请, 必填
-                -- Space ID          AdHub后台申请, 必填
-                -- Space Param   填任意字符串,   必填
+*  AppID                  AdHub后台申请, 必填
+* -- Space ID          AdHub后台申请, 必填
+* -- Space Param   填任意字符串,   必填
 - 默认AdHub广告id, 开发者也可以自行输入。
 
