@@ -21,9 +21,9 @@
 		1B6A6B51C3CDA622D486333B9A32375E /* Pods-AdHubSDKPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdHubSDKPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		24EBA98E9D219902725DA210BE79204E /* libPods-AdHubSDKPod_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AdHubSDKPod_Example.a"; path = "libPods-AdHubSDKPod_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F22FD9F94503BF4454D9090CF47BAD /* Pods-AdHubSDKPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdHubSDKPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		62CFF3C8599C34B647FAFFAA102297DD /* AdHubSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AdHubSDKResources.bundle; path = AdHubSDKPod/Classes/AdHubSDKResources.bundle; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6E83A02048EF7E4708F4BD6B10548980 /* Pods-AdHubSDKPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdHubSDKPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7716A913CFF490CFBD53230F6A894A34 /* AdHubSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AdHubSDKResources.bundle; sourceTree = "<group>"; };
 		82516D938FB8814F876BD90777EB725E /* Pods-AdHubSDKPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdHubSDKPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8680A6C3EEDE9A0885AADBF06A766A6F /* Pods-AdHubSDKPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdHubSDKPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8E7B4FF758BDD86E3448E00405D89A4F /* Pods-AdHubSDKPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdHubSDKPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -56,13 +56,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4AF082B514213A2967003AC86649E4C2 /* AdHubSDKPod */ = {
+		316487A665A5D835F1FAB8D621C5B764 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EBC315BD237528C1124FAE0F0A759F69 /* Classes */,
+				62CFF3C8599C34B647FAFFAA102297DD /* AdHubSDKResources.bundle */,
 			);
-			name = AdHubSDKPod;
-			path = AdHubSDKPod;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		539751FDF0ED30EA67968BF06DA7A4D9 /* Pods-AdHubSDKPod_Example */ = {
@@ -104,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				C2D74D273D272B90A4B48DCF7C19CE47 /* Frameworks */,
-				A18A328CE170CB8900C13FEAE1D11C55 /* Resources */,
+				316487A665A5D835F1FAB8D621C5B764 /* Resources */,
 			);
 			name = AdHubSDKPod;
 			path = ../..;
@@ -116,14 +115,6 @@
 				7E50E42B0F27B1D720F8C75E058E068A /* AdHubSDKPod */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A18A328CE170CB8900C13FEAE1D11C55 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4AF082B514213A2967003AC86649E4C2 /* AdHubSDKPod */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -163,15 +154,6 @@
 			);
 			name = "Pods-AdHubSDKPod_Tests";
 			path = "Target Support Files/Pods-AdHubSDKPod_Tests";
-			sourceTree = "<group>";
-		};
-		EBC315BD237528C1124FAE0F0A759F69 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				7716A913CFF490CFBD53230F6A894A34 /* AdHubSDKResources.bundle */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		F5913D606FCC738CB0BC9F8C44B30C66 /* Targets Support Files */ = {
