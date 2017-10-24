@@ -23,6 +23,11 @@
 @property(nonatomic,weak)id<AdHubBannerViewDelegate>delegate;
 
 /**
+ 视频广告是否播放完毕, 常用于在用户看完视频后发送奖励
+ */
+@property (nonatomic,readonly,assign)BOOL videoPlayFinishState;
+
+/**
  初始化方法
  
  @param spaceID 广告位 ID

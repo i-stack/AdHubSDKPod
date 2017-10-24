@@ -71,7 +71,10 @@ typedef NS_ENUM(NSInteger, AdHubAdClickMessageType) {
     kAdHubAdClickMessageTypeInvalidPresentVC,
     
     /// 正常
-    kAdHubAdClickMessageTypeNormal
+    kAdHubAdClickMessageTypeNormal,
+    
+    /// deeplink
+    kkAdHubAdClickOpenDeeplink
 };
 
 @interface AdHubRequestError : NSError

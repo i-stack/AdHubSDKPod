@@ -59,6 +59,11 @@ ADHub_ASSUME_NONNULL_BEGIN
 @property(nonatomic,assign)BOOL needAnimation;
 
 /**
+ 视频广告是否播放完毕, 常用于在用户看完视频后发送奖励
+ */
+@property (nonatomic,readonly,assign)BOOL videoPlayFinishState;
+
+/**
  展示插屏
  @param rootViewController 用于展示插屏的 viewController。展示结束后，delegate 的 interstitialDidDismissScreen: 方法将会被调用
  */
