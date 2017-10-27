@@ -74,7 +74,7 @@ typedef NS_ENUM(NSInteger, AdHubAdClickMessageType) {
     kAdHubAdClickMessageTypeNormal,
     
     /// deeplink
-    kkAdHubAdClickOpenDeeplink
+    kAdHubAdClickOpenDeeplink,
 };
 
 @interface AdHubRequestError : NSError
