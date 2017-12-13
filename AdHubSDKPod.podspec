@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AdHubSDKPod'
-  s.version          = '1.8.8.3'
+  s.version          = '1.8.8.4'
   s.summary          = 'AdHubSDK 广告平台, 用于请求广告的iOS SDK pod version'
 
  s.description      = <<-DESC
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
  DESC
 
 
-  s.homepage         = 'https://github.com/songMW/AdHubSDKPod'
+  s.homepage         = 'https://github.com/songMW'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'songMW' => 'songshoubing7664@163.com' }
   s.source           = { :git => 'https://github.com/songMW/AdHubSDKPod.git', :tag => s.version.to_s }
