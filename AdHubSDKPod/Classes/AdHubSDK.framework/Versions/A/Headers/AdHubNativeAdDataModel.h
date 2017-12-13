@@ -25,8 +25,9 @@ typedef NS_ENUM(NSUInteger){
 @property (nonatomic,readonly,strong)NSString *imageUrlString; // Deprecate use `images` replace
 @property (nonatomic,readonly,strong)NSString *body; // Deprecate use `texts` replace
 @property (nonatomic,readonly,strong)NSString *action;
-@property (nonatomic,readonly,strong)NSString *landingUrl; // landing page url
-@property (nonatomic,readonly,strong)NSString *deeplinkUrl;// deeplink
+@property (nonatomic,readonly,strong)NSString *landingUrl;  // landing page url
+@property (nonatomic,readonly,strong)NSString *deeplinkUrl; // deeplink
+@property (nonatomic,readonly,strong)NSString *phoneNumber; // phoneNumber
 @property (nonatomic,readonly,strong)NSArray *images; // @[imageUrlString, ...]
 @property (nonatomic,readonly,strong)NSArray *videos; // @[videoUrlString, ...]
 @property (nonatomic,readonly,strong)NSArray *texts;  // @[body, ...]
