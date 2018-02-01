@@ -21,7 +21,7 @@ platform :ios, '7.0'
 
 target 'TargetName' do
 pod "AdHubSDKPod", '~> 1.8.8.6'
-end
+
 ```
 
 Then, run the following command:
