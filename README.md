@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 platform :ios, '7.0'
 
 target 'TargetName' do
-pod "AdHubSDKPod", '~> 0.4.0'
+pod "AdHubSDKPod", '~> 1.8.8.6'
 end
 ```
 

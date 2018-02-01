@@ -1,5 +1,5 @@
 PODS:
-  - AdHubSDKPod (1.8.8.5)
+  - AdHubSDKPod (1.8.8.6)
 
 DEPENDENCIES:
   - AdHubSDKPod (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AdHubSDKPod: ff2b5e0d04fe51a86f88dc68cb5f6de8c0dfd3f2
+  AdHubSDKPod: b7c07c395f27a74d4ae41ca0f3c9344ddc42d3f2
 
 PODFILE CHECKSUM: 85f4e38790dfe949929b7cd8bef242aa72c4d62c
 
