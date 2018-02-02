@@ -9,21 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AdHubSDKPod'
   s.version          = '1.8.8.7'
-  s.summary          = 'AdHubSDK 广告平台, 用于请求广告的iOS SDK pod version'
-
- s.description      = <<-DESC
-支持开屏, banner, 原生, 激励, 插屏, 自定义类型广告请求
-1. 修复原生广告点击跳转后内存不能释放的问题
-2. ua修复
-3. 修改高级API问题
-4. 修改开屏广告点击问题
-5. 修改iOS7.0模式下 HTML格式不能加载问题
-6. 添加原生广告点击时坐标获取
-7. pod create framework with example
-8. fix User-Agent
- DESC
-
-
+  s.summary          = 'AdHubSDK is a delightful iOS AdHubSDK advertising platform.'
   s.homepage         = 'https://github.com/songMW'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'songMW' => 'songshoubing7664@163.com' }
