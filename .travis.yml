@@ -19,3 +19,11 @@ env:
 script:
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/AdHubSDKPod.xcworkspace -scheme AdHubSDKPod-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: master
