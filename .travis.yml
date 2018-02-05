@@ -5,12 +5,6 @@
 osx_image: xcode7.3
 language: objective-c
 sudo: false
-env:
-  global:
-  - LC_CTYPE=en_US.UTF-8
-  - LANG=en_US.UTF-8
-  - LANGUAGE=en_US.UTF-8
-  - FASTLANE_LANE=ci_commit
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
@@ -19,11 +13,3 @@ env:
 # script:
 # - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/AdHubSDKPod.xcworkspace -scheme AdHubSDKPod-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 # - pod lib lint
-
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
-  keep-history: true
-  on:
-    branch: master
