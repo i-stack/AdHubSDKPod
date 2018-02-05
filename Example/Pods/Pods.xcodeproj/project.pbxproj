@@ -19,7 +19,7 @@
 		12456B6037951C9EC4992DFEE583CB70 /* Pods-AdHubSDKPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdHubSDKPod_Example-resources.sh"; sourceTree = "<group>"; };
 		17A6C01E90187E786AE699C0A0475099 /* Pods-AdHubSDKPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdHubSDKPod_Tests-resources.sh"; sourceTree = "<group>"; };
 		1B6A6B51C3CDA622D486333B9A32375E /* Pods-AdHubSDKPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdHubSDKPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		24EBA98E9D219902725DA210BE79204E /* libPods-AdHubSDKPod_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AdHubSDKPod_Example.a"; path = "libPods-AdHubSDKPod_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24EBA98E9D219902725DA210BE79204E /* libPods-AdHubSDKPod_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdHubSDKPod_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F22FD9F94503BF4454D9090CF47BAD /* Pods-AdHubSDKPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdHubSDKPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		62CFF3C8599C34B647FAFFAA102297DD /* AdHubSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AdHubSDKResources.bundle; path = AdHubSDKPod/Classes/AdHubSDKResources.bundle; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -27,10 +27,10 @@
 		82516D938FB8814F876BD90777EB725E /* Pods-AdHubSDKPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdHubSDKPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8680A6C3EEDE9A0885AADBF06A766A6F /* Pods-AdHubSDKPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AdHubSDKPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8E7B4FF758BDD86E3448E00405D89A4F /* Pods-AdHubSDKPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdHubSDKPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A23DE2D9565E3FB9E279BECB9E56054D /* AdHubSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdHubSDK.framework; path = AdHubSDKPod/Classes/AdHubSDK.framework; sourceTree = "<group>"; };
 		A5B543CF69F51641ADE5C57C7A9616C3 /* Pods-AdHubSDKPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AdHubSDKPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D25C900F8F91DB26E40F2FA46AEF9C0E /* libPods-AdHubSDKPod_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AdHubSDKPod_Tests.a"; path = "libPods-AdHubSDKPod_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25C900F8F91DB26E40F2FA46AEF9C0E /* libPods-AdHubSDKPod_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdHubSDKPod_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7B68768BE8FCEFB76700E1B199BD57 /* Pods-AdHubSDKPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AdHubSDKPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E543ED95DFCE9CDE865D4A5A9B3F05BC /* Pods-AdHubSDKPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AdHubSDKPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		F0E57671668F3828854BF19D471DD140 /* Pods-AdHubSDKPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AdHubSDKPod_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -207,7 +207,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0920;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -296,7 +296,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -315,7 +315,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -335,7 +335,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -355,7 +355,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -414,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
@@ -431,7 +431,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HaoBoBannerViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3p-7X-J3N">
+                    <rect key="frame" x="20" y="130" width="335" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="QNi-cV-Uq7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="图文广告 "/>
+                    <connections>
+                        <action selector="requestTextAd:" destination="-1" eventType="touchUpInside" id="TKS-zX-8Q3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rjf-VW-3zS">
+                    <rect key="frame" x="20" y="180" width="335" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="sYL-H5-dhx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="文字链广告"/>
+                    <connections>
+                        <action selector="requestLinkerAd:" destination="-1" eventType="touchUpInside" id="NyW-ui-fj1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxO-yy-4yf">
+                    <rect key="frame" x="20" y="230" width="335" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="j4a-RT-3Bi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="HTML广告"/>
+                    <connections>
+                        <action selector="requestHTMLAd:" destination="-1" eventType="touchUpInside" id="XWq-co-UU4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wz8-Yg-Y2S">
+                    <rect key="frame" x="20" y="80" width="335" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="1JB-5y-uiR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="图片广告"/>
+                    <connections>
+                        <action selector="requestImageAd:" destination="-1" eventType="touchUpInside" id="IEt-k0-qry"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rjf-VW-3zS" firstAttribute="top" secondItem="x3p-7X-J3N" secondAttribute="bottom" constant="20" id="69o-sX-MRK"/>
+                <constraint firstAttribute="trailing" secondItem="rjf-VW-3zS" secondAttribute="trailing" constant="20" id="BJ2-tY-DZ0"/>
+                <constraint firstItem="x3p-7X-J3N" firstAttribute="top" secondItem="Wz8-Yg-Y2S" secondAttribute="bottom" constant="20" id="Fhw-jw-TQw"/>
+                <constraint firstAttribute="trailing" secondItem="Wz8-Yg-Y2S" secondAttribute="trailing" constant="20" id="Kku-4x-qeX"/>
+                <constraint firstItem="Wz8-Yg-Y2S" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="PPt-kU-tqo"/>
+                <constraint firstItem="x3p-7X-J3N" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="S7o-oc-hWu"/>
+                <constraint firstItem="rjf-VW-3zS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="STu-K9-Nh2"/>
+                <constraint firstAttribute="trailing" secondItem="x3p-7X-J3N" secondAttribute="trailing" constant="20" id="WGd-yT-aG0"/>
+                <constraint firstItem="Wz8-Yg-Y2S" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="mz7-a3-3fP"/>
+                <constraint firstItem="fxO-yy-4yf" firstAttribute="top" secondItem="rjf-VW-3zS" secondAttribute="bottom" constant="20" id="pVp-hx-gm8"/>
+                <constraint firstItem="fxO-yy-4yf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="sdF-Di-p0D"/>
+                <constraint firstAttribute="trailing" secondItem="fxO-yy-4yf" secondAttribute="trailing" constant="20" id="zju-zQ-e5O"/>
+            </constraints>
+            <point key="canvasLocation" x="-198" y="-180"/>
+        </view>
+    </objects>
+</document>

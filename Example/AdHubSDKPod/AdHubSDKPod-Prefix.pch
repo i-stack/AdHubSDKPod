@@ -13,4 +13,14 @@
 #ifdef __OBJC__
     @import UIKit;
     @import Foundation;
+#import <AdHubSDK/AdHubSDK.h>
+#import "Masonry.h"
+#import "HaoBoUtls.h"
+#import "iConsole.h"
+#import "MBProgressHUD.h"
+#import "HaoBoSpaceInfo.h"
+#import "HaoBoConstant.h"
+#import "HaoBoButton.h"
+#import "UIView+Toast.h"
+
 #endif

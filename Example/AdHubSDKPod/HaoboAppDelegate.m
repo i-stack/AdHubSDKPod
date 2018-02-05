@@ -1,18 +1,36 @@
 //
-//  HaoboAppDelegate.m
-//  AdHubSDKPod
+//  HaoBoAppDelegate.m
+//  AdHubSDK
 //
-//  Created by songMW on 08/10/2017.
-//  Copyright (c) 2017 songMW. All rights reserved.
+//  Created by songMW on 05/21/2017.
+//  Copyright (c) 2017 AdHub. All rights reserved.
 //
 
 #import "HaoboAppDelegate.h"
+#import "HaoboViewController.h"
+#import "HaoBoTabBarViewController.h"
+
+@interface HaoboAppDelegate ()<AdHubSplashDelegate>
+
+@property (nonatomic,strong)AdHubSplash *splash;
+@property (nonatomic,strong)UIView *customSplashView;
+
+@end
 
 @implementation HaoboAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [AdHubSDKManager configureDebugBlock:^(NSString * _Nonnull key, id  _Nonnull info) {
+        [iConsole log:@"----- debug log of %@ -----", key];
+        [iConsole log:@"%@", info];
+        [iConsole log:@"----- debug log end -----"];
+    }];
+    [AdHubSDKManager configureWithApplicationID:[HaoBoSpaceInfo sharedInstall].appID];
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[HaoBoTabBarViewController alloc]init]];
+    [self.window makeKeyAndVisible];
+    [self showSplash];
+    self.window.rootViewController.view.alpha = 0;
     return YES;
 }
 
@@ -43,4 +61,77 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
+{
+    
+    return YES;
+}
+
+#pragma mark -- Splash Ad
+- (void)showSplash
+{
+    self.customSplashView = [[UIView alloc]init];
+    [self.window addSubview:self.customSplashView];
+    [self.customSplashView setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [self.customSplashView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.bottom.right.equalTo(self.window);
+    }];
+    
+    UIImageView *splashContainer = [[UIImageView alloc]initWithImage:[HaoBoUtls launchImage]];
+    [splashContainer setTranslatesAutoresizingMaskIntoConstraints:NO];
+    [self.customSplashView addSubview:splashContainer];
+    [splashContainer mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.left.bottom.right.equalTo(self.customSplashView);
+    }];
+    
+    _splash = [[AdHubSplash alloc] initWithSpaceID:[HaoBoSpaceInfo sharedInstall].splashSpaceID spaceParam:[HaoBoSpaceInfo sharedInstall].spacefParam];
+    _splash.delegate = self;
+    [_splash loadAndDisplayUsingContainerView:self.customSplashView];
+}
+
+- (UIViewController *)adSplashViewControllerForPresentingModalView
+{
+    return self.window.rootViewController;
+}
+
+- (void)splashDidReceiveAd:(AdHubSplash *)ad
+{
+    for (UIView *subView in self.customSplashView.subviews) {
+        if ([subView isKindOfClass:[UIImageView class]]) {
+            [subView removeFromSuperview];
+            break;
+        }
+    }
+}
+
+- (void)splash:(AdHubSplash *)ad didFailToLoadAdWithError:(AdHubRequestError *)error
+{
+    [self splashClean];
+}
+
+- (void)splashDidDismissScreen:(AdHubSplash *)ad
+{
+    [self splashClean];
+}
+
+- (void)splashDidClick:(NSString *)url
+{
+    [_splash splashCloseAd];
+}
+
+- (void)splashDidPresentScreen:(AdHubSplash *)ad
+{
+    
+}
+
+- (void)splashClean
+{
+    self.splash = nil;
+    self.splash.delegate = nil;
+    [self.customSplashView removeFromSuperview];
+    self.customSplashView = nil;
+    self.window.rootViewController.view.alpha = 1;
+}
+
 @end
+

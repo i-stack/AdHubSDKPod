@@ -16,7 +16,7 @@ CocoaPods is a dependency manager for Objective-C, which automates and simplifie
 platform :ios, '7.0'
 
 target 'TargetName' do
-pod "AdHubSDKPod", '~> 1.8.8.8'
+pod "AdHubSDKPod", '~> 1.9'
 
 end
 ```
