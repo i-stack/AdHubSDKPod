@@ -15,10 +15,10 @@ CocoaPods is a dependency manager for Objective-C, which automates and simplifie
 
 ## Podfile
 ```ruby
-platform :ios, '7.0'
+platform :ios, '8.0'
 
 target 'TargetName' do
-pod "AdHubSDKPod", '~> 1.9'
+pod "AdHubSDKPod", '~> 1.9.1'
 
 end
 ```

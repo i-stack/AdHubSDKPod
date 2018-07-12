@@ -8,19 +8,15 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AdHubSDKPod'
-  s.version          = '1.9'
+  s.version          = '1.9.1'
   s.summary          = 'AdHubSDK is a delightful iOS AdHubSDK advertising platform.'
   s.homepage         = 'https://github.com/songMW'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'songMW' => 'songshoubing7664@163.com' }
   s.source           = { :git => 'https://github.com/songMW/AdHubSDKPod.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '7.0'
-
-  #s.source_files = 'AdHubSDKPod/Classes/**/*'
-  
+  s.ios.deployment_target = '8.0'
   s.vendored_frameworks = 'AdHubSDKPod/Classes/*.framework'
-  s.resources = 'AdHubSDKPod/Classes/*.bundle'
 
   s.frameworks = ['UIKit', 'Twitter', 'MobileCoreServices', 'Security', 'QuartzCore', 'SystemConfiguration', 'JavaScriptCore', 'WebKit', 'CoreMedia', 'CoreTelephony', 'CoreLocation', 'CoreMotion', 'AdSupport', 'CFNetwork', 'MessageUI', 'AVFoundation', 'SafariServices', 'StoreKit', 'CoreGraphics']
 
