@@ -1,1 +1,1 @@
-../../../../../../AdHubSDKPod/Classes/AdHubSDK.framework/Versions/A/Headers/AdHubInterstitialDelegate.h
+../../../../../../AdHubSDKPod/Classes/AdHubSDK.framework/Headers/AdHubInterstitialDelegate.h

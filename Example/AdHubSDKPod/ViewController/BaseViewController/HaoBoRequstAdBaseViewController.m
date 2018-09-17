@@ -349,12 +349,12 @@
 
 - (void)nativeShowExposeLog:(AdHubNativeAdDataModel *)dataModel
 {
-    [self.native didShowAdDataModel:dataModel];
+    [self.native didShowAdDataModel:0];
 }
 
 - (void)nativeClickExposeLog:(AdHubNativeAdDataModel *)dataModel
 {
-    [self.native didClickAdDataModel:dataModel];
+    [self.native didClickAdDataModel:0];
 }
 
 - (void)setNativeAdSDKOpenUrl:(BOOL)state

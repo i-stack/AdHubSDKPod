@@ -1,1 +1,1 @@
-../../../../../../AdHubSDKPod/Classes/AdHubSDK.framework/Versions/A/Headers/AdHubNativeDelegate.h
+../../../../../../AdHubSDKPod/Classes/AdHubSDK.framework/Headers/AdHubNativeDelegate.h

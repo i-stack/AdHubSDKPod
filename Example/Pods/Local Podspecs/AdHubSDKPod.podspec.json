@@ -1,6 +1,6 @@
 {
   "name": "AdHubSDKPod",
-  "version": "1.9.1",
+  "version": "2.0",
   "summary": "AdHubSDK is a delightful iOS AdHubSDK advertising platform.",
   "homepage": "https://github.com/songMW",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/songMW/AdHubSDKPod.git",
-    "tag": "1.9.1"
+    "tag": "2.0"
   },
   "platforms": {
     "ios": "8.0"

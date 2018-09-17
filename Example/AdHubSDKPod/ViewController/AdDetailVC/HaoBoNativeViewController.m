@@ -69,13 +69,13 @@
         [self cleanAdView];
     }
     [self nativeClickExposeLog:dataModel];
-    [self.native didClickAdDataModel:dataModel];
+    [self.native didClickAdDataModel:0];
 }
 
 // 展示曝光
 - (void)adImageAlreadyLoad:(AdHubNativeAdDataModel *)dataModel
 {
-    [self.native didShowAdDataModel:dataModel];
+    [self.native didShowAdDataModel:0];
 }
 
 // 点击关闭按钮

@@ -1,1 +1,1 @@
-../../../../../../AdHubSDKPod/Classes/AdHubSDK.framework/Versions/A/Headers/AdHubRewardBasedVideoAd.h
+../../../../../../AdHubSDKPod/Classes/AdHubSDK.framework/Headers/AdHubRewardBasedVideoAd.h

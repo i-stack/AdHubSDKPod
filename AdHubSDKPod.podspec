@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AdHubSDKPod'
-  s.version          = '1.9.1'
+  s.version          = '2.0'
   s.summary          = 'AdHubSDK is a delightful iOS AdHubSDK advertising platform.'
   s.homepage         = 'https://github.com/songMW'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

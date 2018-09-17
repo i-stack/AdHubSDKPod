@@ -111,7 +111,7 @@ static void exceptionHandler(NSException *exception)
 	NSUInteger touches = (TARGET_IPHONE_SIMULATOR ? _simulatorTouchesToShow: _deviceTouchesToShow);
 	if (touches > 0 && touches < 11)
 	{
-		text = [text stringByAppendingFormat:@"\nSwipe down with %zd finger%@ to hide console", touches, (touches != 1)? @"s": @""];
+        text = [text stringByAppendingFormat:@"\nSwipe down with %lu finger%@ to hide console", (unsigned long)touches, (touches != 1)? @"s": @""];
 	}
 	else if (TARGET_IPHONE_SIMULATOR ? _simulatorShakeToShow: _deviceShakeToShow)
 	{
